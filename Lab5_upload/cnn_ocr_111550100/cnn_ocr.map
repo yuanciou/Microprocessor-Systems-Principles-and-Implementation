@@ -1,0 +1,908 @@
+Archive member included to satisfy reference by file (symbol)
+
+./libelibc.a(crt0.o)          (crt0)
+./libelibc.a(stdio.o)         cnn_ocr.o (printf)
+./libelibc.a(stdlib.o)        cnn_ocr.o (exit)
+./libelibc.a(string.o)        file_read.o (memcpy)
+./libelibc.a(time.o)          cnn_ocr.o (clock)
+./libelibc.a(uart.o)          ./libelibc.a(stdio.o) (inbyte)
+./libelibc.a(fat32.o)         file_read.o (read_file)
+./libelibc.a(sd.o)            ./libelibc.a(fat32.o) (init_sd)
+./libelibc.a(spi.o)           ./libelibc.a(sd.o) (spi_init)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+                              cnn_ocr.o (__udivdi3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+                              cnn_ocr.o (__umoddi3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+                              ./libelibc.a(stdio.o) (__adddf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+                              file_read.o (__divdf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+                              cnn_ocr.o (__gtdf2)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+                              cnn_ocr.o (__ltdf2)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+                              ./libelibc.a(stdio.o) (__muldf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+                              file_read.o (__subdf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+                              ./libelibc.a(stdio.o) (__fixunsdfsi)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+                              ./libelibc.a(stdio.o) (__floatunsidf)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+                              cnn_ocr.o (__fixunsdfdi)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+                              cnn_ocr.o (__floatundidf)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+                              cnn_ocr.o (__addsf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+                              cnn_ocr.o (__divsf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+                              cnn_ocr.o (__gtsf2)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+                              cnn_ocr.o (__ltsf2)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+                              cnn_ocr.o (__mulsf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+                              cnn_ocr.o (__subsf3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+                              cnn_ocr.o (__fixsfsi)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+                              cnn_ocr.o (__floatsisf)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+                              cnn_ocr.o (__floatunsisf)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+                              cnn_ocr.o (__fixunssfdi)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+                              cnn_ocr.o (__floatundisf)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+                              cnn_ocr.o (__extendsfdf2)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+                              file_read.o (__truncdfsf2)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+                              /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o) (__lshrdi3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+                              /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o) (__ashldi3)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+                              /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o) (__clz_tab)
+/mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+                              /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o) (__clzsi2)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+code_ram         0x80001000         0x00010000         xr!rw
+data_ram         0x80011000         0x00310000         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000800                        __stack_size = 0x800
+                0x00200000                        __heap_size = 0x200000
+
+.text           0x80001000     0x93ec
+ *(.text*)
+ .text          0x80001000     0x1970 cnn_ocr.o
+                0x80001050                dummy_head_layer_forward_propagation
+                0x80001054                average_pooling_layer_forward_propagation
+                0x800014b8                fully_connected_layer_forward_propagation
+                0x800017b0                convolutional_layer_forward_propagation
+                0x80001aa0                max
+                0x80001afc                min
+                0x80001b58                get_index
+                0x80001bbc                new_index3d
+                0x80001bd8                no_math_ceil
+                0x80001bdc                init_layer
+                0x80001cf0                predict
+                0x80001d44                get_dummy_head_layer_entry
+                0x80001d4c                new_dummy_head_layer
+                0x80001db8                get_convolutional_layer_entry
+                0x80001dc0                conv_copy_and_pad_input
+                0x80001dd8                new_convolutional_layer
+                0x800023dc                get_average_pooling_layer_entry
+                0x800023e4                new_average_pooling_layer
+                0x8000268c                get_fully_connected_layer_entry
+                0x80002694                new_fully_connected_layer
+                0x800027c8                cnn_evaluate
+ .text.startup  0x80002970      0x660 cnn_ocr.o
+                0x80002970                main
+ .text          0x80002fd0      0x378 file_read.o
+                0x80002fd0                read_images
+                0x80003258                read_labels
+                0x800032d4                read_weights
+ .text          0x80003348       0x30 ./libelibc.a(crt0.o)
+                0x80003348                crt0
+ .text          0x80003378     0x1124 ./libelibc.a(stdio.o)
+                0x80003378                getchar
+                0x80003390                putchar
+                0x800033bc                fputs
+                0x8000344c                fgets
+                0x80003514                putd
+                0x80003888                putx
+                0x80003ca8                putld
+                0x80003f08                putf
+                0x800040c4                printf
+ .text          0x8000449c      0x2c0 ./libelibc.a(stdlib.o)
+                0x8000449c                exit
+                0x800044e8                malloc
+                0x80004610                free
+                0x8000463c                calloc
+                0x80004678                atoi
+                0x80004710                abs
+                0x80004720                srand
+                0x8000472c                rand
+ .text          0x8000475c      0x4e8 ./libelibc.a(string.o)
+                0x8000475c                memcpy
+                0x80004800                memmove
+                0x800048e4                memset
+                0x800049d4                strlen
+                0x800049fc                strcpy
+                0x80004a24                strncpy
+                0x80004b2c                strcat
+                0x80004b70                strncat
+                0x80004bc4                strcmp
+                0x80004c00                strncmp
+ .text          0x80004c44       0xb4 ./libelibc.a(time.o)
+                0x80004c44                clock
+ .text          0x80004cf8       0x70 ./libelibc.a(uart.o)
+                0x80004cf8                inbyte
+                0x80004d1c                outbyte
+ .text          0x80004d68      0x8f4 ./libelibc.a(fat32.o)
+                0x80004d68                copy_file
+                0x80004f6c                get_next_cluster
+                0x80004ff4                get_partition_first_lba
+                0x8000517c                long2short
+                0x80005414                read_file
+ .text          0x8000565c      0xb90 ./libelibc.a(sd.o)
+                0x8000565c                sd_dummy
+                0x80005664                sd_cmd
+                0x800056fc                print_status
+                0x80005700                sd_cmd0
+                0x800057dc                sd_cmd8
+                0x80005900                sd_cmd55
+                0x80005988                sd_acmd41
+                0x80005aa4                init_sd
+                0x80005ca8                crc7
+                0x80005cd0                crc16
+                0x80005d2c                sd_copy
+                0x80005f74                sd_write
+ .text          0x800061ec      0x1c8 ./libelibc.a(spi.o)
+                0x800061ec                write_reg
+                0x800061f4                read_reg
+                0x800061fc                spi_init
+                0x80006260                spi_txrx
+                0x800062e0                spi_write_bytes
+ .text          0x800063b4      0x430 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+                0x800063b4                __udivdi3
+ .text          0x800067e4      0x3e4 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+                0x800067e4                __umoddi3
+ .text          0x80006bc8      0x794 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+                0x80006bc8                __adddf3
+ .text          0x8000735c      0x6dc /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+                0x8000735c                __divdf3
+ .text          0x80007a38       0xdc /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+                0x80007a38                __gtdf2
+                0x80007a38                __gedf2
+ .text          0x80007b14       0xdc /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+                0x80007b14                __ltdf2
+                0x80007b14                __ledf2
+ .text          0x80007bf0      0x5f0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+                0x80007bf0                __muldf3
+ .text          0x800081e0      0x7a8 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+                0x800081e0                __subdf3
+ .text          0x80008988       0x7c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+                0x80008988                __fixunsdfsi
+ .text          0x80008a04       0x80 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+                0x80008a04                __floatunsidf
+ .text          0x80008a84       0xa8 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+                0x80008a84                __fixunsdfdi
+ .text          0x80008b2c      0x1b0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+                0x80008b2c                __floatundidf
+ .text          0x80008cdc      0x420 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+                0x80008cdc                __addsf3
+ .text          0x800090fc      0x32c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+                0x800090fc                __divsf3
+ .text          0x80009428       0xac /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+                0x80009428                __gtsf2
+                0x80009428                __gesf2
+ .text          0x800094d4       0xac /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+                0x800094d4                __lesf2
+                0x800094d4                __ltsf2
+ .text          0x80009580      0x31c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+                0x80009580                __mulsf3
+ .text          0x8000989c      0x430 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+                0x8000989c                __subsf3
+ .text          0x80009ccc       0x70 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+                0x80009ccc                __fixsfsi
+ .text          0x80009d3c      0x108 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+                0x80009d3c                __floatsisf
+ .text          0x80009e44       0xdc /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+                0x80009e44                __floatunsisf
+ .text          0x80009f20       0x84 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+                0x80009f20                __fixunssfdi
+ .text          0x80009fa4      0x138 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+                0x80009fa4                __floatundisf
+ .text          0x8000a0dc       0xdc /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+                0x8000a0dc                __extendsfdf2
+ .text          0x8000a1b8      0x178 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+                0x8000a1b8                __truncdfsf2
+ .text          0x8000a330       0x38 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+                0x8000a330                __lshrdi3
+ .text          0x8000a368       0x38 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+                0x8000a368                __ashldi3
+ .text          0x8000a3a0        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .text          0x8000a3a0       0x4c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+                0x8000a3a0                __clzsi2
+
+.srodata.cst4   0x8000a3ec       0x10
+ .srodata.cst4  0x8000a3ec       0x10 cnn_ocr.o
+                                  0xc (size before relaxing)
+ .srodata.cst4  0x8000a3fc        0x4 file_read.o
+
+.srodata.cst8   0x8000a400       0x28
+ .srodata.cst8  0x8000a400       0x28 file_read.o
+                                 0x10 (size before relaxing)
+ .srodata.cst8  0x8000a428       0x18 ./libelibc.a(stdio.o)
+
+.srodata        0x8000a428        0x8
+ .srodata       0x8000a428        0x8 ./libelibc.a(stdlib.o)
+
+.eh_frame       0x8000a430       0x3c
+ .eh_frame      0x8000a430       0x28 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .eh_frame      0x8000a458       0x14 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+                                 0x28 (size before relaxing)
+
+.rela.dyn       0x8000a46c        0x0
+ .rela.sdata    0x8000a46c        0x0 cnn_ocr.o
+ .rela.srodata  0x8000a46c        0x0 cnn_ocr.o
+
+.data           0x80011000     0x109c
+ *(.data)
+ .data          0x80011000        0x0 cnn_ocr.o
+ .data          0x80011000        0x0 file_read.o
+ .data          0x80011000        0x0 ./libelibc.a(crt0.o)
+ .data          0x80011000        0x0 ./libelibc.a(stdio.o)
+ .data          0x80011000        0x0 ./libelibc.a(stdlib.o)
+ .data          0x80011000        0x0 ./libelibc.a(string.o)
+ .data          0x80011000        0x0 ./libelibc.a(time.o)
+ .data          0x80011000        0x0 ./libelibc.a(uart.o)
+ .data          0x80011000        0x0 ./libelibc.a(fat32.o)
+ .data          0x80011000        0x0 ./libelibc.a(sd.o)
+ .data          0x80011000        0x0 ./libelibc.a(spi.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .data          0x80011000        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+ *(.bss)
+ .bss           0x80011000        0x0 cnn_ocr.o
+ .bss           0x80011000        0x0 file_read.o
+ .bss           0x80011000        0x0 ./libelibc.a(crt0.o)
+ .bss           0x80011000        0x0 ./libelibc.a(stdio.o)
+ .bss           0x80011000        0x0 ./libelibc.a(stdlib.o)
+ .bss           0x80011000        0x0 ./libelibc.a(string.o)
+ .bss           0x80011000        0x0 ./libelibc.a(time.o)
+ .bss           0x80011000        0x0 ./libelibc.a(uart.o)
+ .bss           0x80011000      0xa00 ./libelibc.a(fat32.o)
+ .bss           0x80011a00       0x80 ./libelibc.a(sd.o)
+ .bss           0x80011a80        0x0 ./libelibc.a(spi.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .bss           0x80011a80        0x0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+ *(.rodata*)
+ .rodata.str1.4
+                0x80011a80      0x376 cnn_ocr.o
+                                0x198 (size before relaxing)
+ .rodata.str1.4
+                0x80011df6       0x40 file_read.o
+ .rodata.str1.4
+                0x80011df6       0x7d ./libelibc.a(stdio.o)
+ *fill*         0x80011df6        0x2 
+ .rodata        0x80011df8       0x84 ./libelibc.a(stdio.o)
+ .rodata        0x80011e7c       0xa8 ./libelibc.a(stdlib.o)
+ .rodata.str1.4
+                0x80011f24       0xe3 ./libelibc.a(fat32.o)
+ .rodata.str1.4
+                0x80011f24       0x3a ./libelibc.a(sd.o)
+ .rodata        0x80011f24       0x3c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .rodata        0x80011f60       0x3c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .rodata        0x80011f9c      0x100 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+                0x80011f9c                __clz_tab
+
+.sdata          0x8001209c       0x30
+ .sdata         0x8001209c        0x4 file_read.o
+                0x8001209c                fbuf
+ .sdata         0x800120a0        0x4 ./libelibc.a(crt0.o)
+                0x800120a0                stack_top
+ .sdata         0x800120a4       0x1c ./libelibc.a(stdio.o)
+                0x800120a4                stderr
+                0x800120a8                stdout
+                0x800120ac                stdin
+ .sdata         0x800120c0        0xc ./libelibc.a(stdlib.o)
+
+.sbss           0x800120cc        0xc
+ .sbss          0x800120cc        0x4 ./libelibc.a(crt0.o)
+                0x800120cc                sp_store
+ .sbss          0x800120d0        0x8 ./libelibc.a(stdio.o)
+
+.heap           0x800120e0   0x200000
+                0x800120e0                        __heap_start = .
+                0x802120e0                        . = (. + __heap_size)
+ *fill*         0x800120e0   0x200000 
+
+.stack          0x802120e0      0x800
+                0x802128e0                        . = (. + __stack_size)
+ *fill*         0x802120e0      0x800 
+                0x802128e0                        __stack_top = .
+LOAD cnn_ocr.o
+LOAD file_read.o
+LOAD ./libelibc.a
+LOAD /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a
+OUTPUT(cnn_ocr.elf elf32-littleriscv)
+
+.comment        0x00000000        0xf
+ .comment       0x00000000        0xf cnn_ocr.o
+                                 0x10 (size before relaxing)
+ .comment       0x0000000f       0x10 file_read.o
+ .comment       0x0000000f       0x10 ./libelibc.a(crt0.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(stdio.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(stdlib.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(string.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(time.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(uart.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(fat32.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(sd.o)
+ .comment       0x0000000f       0x10 ./libelibc.a(spi.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .comment       0x0000000f       0x10 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.riscv.attributes
+                0x00000000       0x5b
+ .riscv.attributes
+                0x00000000       0x57 cnn_ocr.o
+ .riscv.attributes
+                0x00000057       0x57 file_read.o
+ .riscv.attributes
+                0x000000ae       0x57 ./libelibc.a(crt0.o)
+ .riscv.attributes
+                0x00000105       0x57 ./libelibc.a(stdio.o)
+ .riscv.attributes
+                0x0000015c       0x57 ./libelibc.a(stdlib.o)
+ .riscv.attributes
+                0x000001b3       0x57 ./libelibc.a(string.o)
+ .riscv.attributes
+                0x0000020a       0x5b ./libelibc.a(time.o)
+ .riscv.attributes
+                0x00000265       0x57 ./libelibc.a(uart.o)
+ .riscv.attributes
+                0x000002bc       0x57 ./libelibc.a(fat32.o)
+ .riscv.attributes
+                0x00000313       0x57 ./libelibc.a(sd.o)
+ .riscv.attributes
+                0x0000036a       0x57 ./libelibc.a(spi.o)
+ .riscv.attributes
+                0x000003c1       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .riscv.attributes
+                0x00000403       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .riscv.attributes
+                0x00000445       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .riscv.attributes
+                0x00000487       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .riscv.attributes
+                0x000004c9       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .riscv.attributes
+                0x0000050b       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .riscv.attributes
+                0x0000054d       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .riscv.attributes
+                0x0000058f       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .riscv.attributes
+                0x000005d1       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .riscv.attributes
+                0x00000613       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .riscv.attributes
+                0x00000655       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .riscv.attributes
+                0x00000697       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .riscv.attributes
+                0x000006d9       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .riscv.attributes
+                0x0000071b       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .riscv.attributes
+                0x0000075d       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .riscv.attributes
+                0x0000079f       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .riscv.attributes
+                0x000007e1       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .riscv.attributes
+                0x00000823       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .riscv.attributes
+                0x00000865       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .riscv.attributes
+                0x000008a7       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .riscv.attributes
+                0x000008e9       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .riscv.attributes
+                0x0000092b       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .riscv.attributes
+                0x0000096d       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .riscv.attributes
+                0x000009af       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .riscv.attributes
+                0x000009f1       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .riscv.attributes
+                0x00000a33       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .riscv.attributes
+                0x00000a75       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .riscv.attributes
+                0x00000ab7       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .riscv.attributes
+                0x00000af9       0x42 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_info     0x00000000     0x57bb
+ .debug_info    0x00000000      0x76f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000076f      0x7c2 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_info    0x00000f31      0x501 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_info    0x00001432      0x67b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_info    0x00001aad      0x225 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_info    0x00001cd2      0x225 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_info    0x00001ef7      0x6a4 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_info    0x0000259b      0x501 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_info    0x00002a9c      0x1ad /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_info    0x00002c49      0x25d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_info    0x00002ea6      0x1c9 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_info    0x0000306f      0x2c1 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_info    0x00003330      0x2ec /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_info    0x0000361c      0x358 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_info    0x00003974      0x201 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_info    0x00003b75      0x201 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_info    0x00003d76      0x348 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_info    0x000040be      0x2ec /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_info    0x000043aa      0x1b1 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_info    0x0000455b      0x213 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_info    0x0000476e      0x20a /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_info    0x00004978      0x1b0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_info    0x00004b28      0x23d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_info    0x00004d65      0x254 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_info    0x00004fb9      0x26e /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_info    0x00005227      0x1af /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_info    0x000053d6      0x1af /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_info    0x00005585       0xe6 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .debug_info    0x0000566b      0x150 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x00000000     0x26df
+ .debug_abbrev  0x00000000      0x1a6 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x000001a6      0x1aa /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00000350      0x176 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_abbrev  0x000004c6      0x173 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_abbrev  0x00000639      0x166 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_abbrev  0x0000079f      0x166 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_abbrev  0x00000905      0x185 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_abbrev  0x00000a8a      0x176 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_abbrev  0x00000c00      0x162 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_abbrev  0x00000d62      0x163 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_abbrev  0x00000ec5      0x15f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_abbrev  0x00001024      0x181 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_abbrev  0x000011a5      0x164 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_abbrev  0x00001309      0x141 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_abbrev  0x0000144a      0x15f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_abbrev  0x000015a9      0x15f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_abbrev  0x00001708      0x150 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_abbrev  0x00001858      0x164 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_abbrev  0x000019bc      0x15d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_abbrev  0x00001b19      0x16d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_abbrev  0x00001c86      0x186 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_abbrev  0x00001e0c      0x15f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_abbrev  0x00001f6b      0x175 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_abbrev  0x000020e0      0x15b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_abbrev  0x0000223b      0x152 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_abbrev  0x0000238d      0x10c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x00002499      0x10c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x000025a5       0x70 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .debug_abbrev  0x00002615       0xca /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_loclists
+                0x00000000     0x5c4c
+ .debug_loclists
+                0x00000000      0x704 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .debug_loclists
+                0x00000704      0x586 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_loclists
+                0x00000c8a      0xabf /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_loclists
+                0x00001749      0xf50 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_loclists
+                0x00002699       0xdc /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_loclists
+                0x00002775       0xdc /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_loclists
+                0x00002851      0x7f5 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_loclists
+                0x00003046      0xac4 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_loclists
+                0x00003b0a       0x90 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_loclists
+                0x00003b9a       0xb4 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_loclists
+                0x00003c4e      0x13c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_loclists
+                0x00003d8a      0x1cf /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_loclists
+                0x00003f59      0x571 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_loclists
+                0x000044ca      0x450 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_loclists
+                0x0000491a       0x8f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_loclists
+                0x000049a9       0x8f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_loclists
+                0x00004a38      0x356 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_loclists
+                0x00004d8e      0x588 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_loclists
+                0x00005316       0x8e /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_loclists
+                0x000053a4      0x13d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_loclists
+                0x000054e1       0xf0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_loclists
+                0x000055d1       0xf0 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_loclists
+                0x000056c1      0x15a /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_loclists
+                0x0000581b      0x128 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_loclists
+                0x00005943      0x1ef /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_loclists
+                0x00005b32       0x6b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_loclists
+                0x00005b9d       0x6b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_loclists
+                0x00005c08       0x44 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x00000000      0x398
+ .debug_aranges
+                0x00000000       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000020       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x00000040       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_aranges
+                0x00000060       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_aranges
+                0x00000080       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_aranges
+                0x000000a0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_aranges
+                0x000000c0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_aranges
+                0x000000e0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_aranges
+                0x00000100       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_aranges
+                0x00000120       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_aranges
+                0x00000140       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_aranges
+                0x00000160       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_aranges
+                0x00000180       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_aranges
+                0x000001a0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_aranges
+                0x000001c0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_aranges
+                0x000001e0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_aranges
+                0x00000200       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x00000220       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_aranges
+                0x00000240       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_aranges
+                0x00000260       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_aranges
+                0x00000280       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_aranges
+                0x000002a0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_aranges
+                0x000002c0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_aranges
+                0x000002e0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_aranges
+                0x00000300       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_aranges
+                0x00000320       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000340       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000360       0x18 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .debug_aranges
+                0x00000378       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_rnglists
+                0x00000000      0x94e
+ .debug_rnglists
+                0x00000000       0x99 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .debug_rnglists
+                0x00000099       0x66 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_rnglists
+                0x000000ff       0xc7 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_rnglists
+                0x000001c6       0xcf /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_rnglists
+                0x00000295       0x38 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_rnglists
+                0x000002cd       0x38 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_rnglists
+                0x00000305      0x136 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_rnglists
+                0x0000043b       0xc7 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_rnglists
+                0x00000502       0x16 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_rnglists
+                0x00000518       0x2f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_rnglists
+                0x00000547       0x21 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_rnglists
+                0x00000568       0x46 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_rnglists
+                0x000005ae       0x92 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_rnglists
+                0x00000640       0x7d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_rnglists
+                0x000006bd       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_rnglists
+                0x000006dd       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_rnglists
+                0x000006fd       0x7d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_rnglists
+                0x0000077a       0x96 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_rnglists
+                0x00000810       0x13 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_rnglists
+                0x00000823       0x44 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_rnglists
+                0x00000867       0x33 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_rnglists
+                0x0000089a       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_rnglists
+                0x000008ba       0x3f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_rnglists
+                0x000008f9       0x1d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_rnglists
+                0x00000916       0x22 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_rnglists
+                0x00000938       0x16 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_line     0x00000000     0xb059
+ .debug_line    0x00000000      0x905 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+ .debug_line    0x00000905      0x963 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_line    0x00001268     0x1224 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_line    0x0000248c     0x106b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_line    0x000034f7      0x372 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_line    0x00003869      0x372 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_line    0x00003bdb      0xfa3 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_line    0x00004b7e     0x1270 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_line    0x00005dee      0x1bb /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_line    0x00005fa9      0x239 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_line    0x000061e2      0x231 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_line    0x00006413      0x429 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_line    0x0000683c      0xc15 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_line    0x00007451      0x89e /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_line    0x00007cef      0x2df /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_line    0x00007fce      0x2df /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_line    0x000082ad      0x7e9 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_line    0x00008a96      0xc5b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_line    0x000096f1      0x209 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_line    0x000098fa      0x357 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_line    0x00009c51      0x31f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_line    0x00009f70      0x20d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_line    0x0000a17d      0x37f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_line    0x0000a4fc      0x3b1 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_line    0x0000a8ad      0x480 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_line    0x0000ad2d      0x107 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000ae34      0x107 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_line    0x0000af3b       0x3f /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .debug_line    0x0000af7a       0xdf /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_str      0x00000000      0x98a
+ .debug_str     0x00000000      0x98a /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+                                0x268 (size before relaxing)
+ .debug_str     0x0000098a      0x268 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_str     0x0000098a      0x2a8 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_str     0x0000098a      0x36a /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_str     0x0000098a      0x1de /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_str     0x0000098a      0x1de /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_str     0x0000098a      0x3c2 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_str     0x0000098a      0x2a8 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_str     0x0000098a      0x1b1 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_str     0x0000098a      0x24d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_str     0x0000098a      0x1bb /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_str     0x0000098a      0x26b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_str     0x0000098a      0x26b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_str     0x0000098a      0x2d5 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_str     0x0000098a      0x1c2 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_str     0x0000098a      0x1c2 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_str     0x0000098a      0x290 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_str     0x0000098a      0x26b /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_str     0x0000098a      0x1a3 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_str     0x0000098a      0x233 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_str     0x0000098a      0x22e /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_str     0x0000098a      0x1a9 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_str     0x0000098a      0x242 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_str     0x0000098a      0x1de /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_str     0x0000098a      0x234 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_str     0x0000098a      0x1f2 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_str     0x0000098a      0x1f2 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_str     0x0000098a      0x1b5 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .debug_str     0x0000098a      0x1d2 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_line_str
+                0x00000000      0x4b4
+ .debug_line_str
+                0x00000000      0x4b4 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_udivdi3.o)
+                                0x154 (size before relaxing)
+ .debug_line_str
+                0x000004b4      0x154 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_umoddi3.o)
+ .debug_line_str
+                0x000004b4      0x160 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_line_str
+                0x000004b4      0x16a /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_line_str
+                0x000004b4      0x16d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_line_str
+                0x000004b4      0x16d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_line_str
+                0x000004b4      0x16a /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_line_str
+                0x000004b4      0x160 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_line_str
+                0x000004b4      0x176 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_line_str
+                0x000004b4      0x179 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_line_str
+                0x000004b4      0x176 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_line_str
+                0x000004b4      0x179 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_line_str
+                0x000004b4      0x160 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_line_str
+                0x000004b4      0x160 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_line_str
+                0x000004b4      0x16d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_line_str
+                0x000004b4      0x16d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_line_str
+                0x000004b4      0x16a /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_line_str
+                0x000004b4      0x160 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_line_str
+                0x000004b4      0x16d /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_line_str
+                0x000004b4      0x173 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_line_str
+                0x000004b4      0x179 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_line_str
+                0x000004b4      0x176 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_line_str
+                0x000004b4      0x179 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_line_str
+                0x000004b4      0x178 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_line_str
+                0x000004b4      0x175 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_line_str
+                0x000004b4      0x154 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_line_str
+                0x000004b4      0x154 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_line_str
+                0x000004b4      0x154 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clz.o)
+ .debug_line_str
+                0x000004b4      0x154 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
+
+.debug_frame    0x00000000      0x540
+ .debug_frame   0x00000000       0x44 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(adddf3.o)
+ .debug_frame   0x00000044       0x54 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divdf3.o)
+ .debug_frame   0x00000098       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gedf2.o)
+ .debug_frame   0x000000b8       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(ledf2.o)
+ .debug_frame   0x000000d8       0x54 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(muldf3.o)
+ .debug_frame   0x0000012c       0x44 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subdf3.o)
+ .debug_frame   0x00000170       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfsi.o)
+ .debug_frame   0x00000190       0x34 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsidf.o)
+ .debug_frame   0x000001c4       0x2c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunsdfdi.o)
+ .debug_frame   0x000001f0       0x44 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundidf.o)
+ .debug_frame   0x00000234       0x40 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(addsf3.o)
+ .debug_frame   0x00000274       0x4c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(divsf3.o)
+ .debug_frame   0x000002c0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(gesf2.o)
+ .debug_frame   0x000002e0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(lesf2.o)
+ .debug_frame   0x00000300       0x4c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(mulsf3.o)
+ .debug_frame   0x0000034c       0x40 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(subsf3.o)
+ .debug_frame   0x0000038c       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixsfsi.o)
+ .debug_frame   0x000003ac       0x38 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatsisf.o)
+ .debug_frame   0x000003e4       0x34 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatunsisf.o)
+ .debug_frame   0x00000418       0x2c /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(fixunssfdi.o)
+ .debug_frame   0x00000444       0x44 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(floatundisf.o)
+ .debug_frame   0x00000488       0x38 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(extendsfdf2.o)
+ .debug_frame   0x000004c0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(truncdfsf2.o)
+ .debug_frame   0x000004e0       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_lshrdi3.o)
+ .debug_frame   0x00000500       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_ashldi3.o)
+ .debug_frame   0x00000520       0x20 /mnt/c/Course/mpd/riscv-gnu-toolchain/lib/gcc/riscv32-unknown-elf/13.2.0/libgcc.a(_clzsi2.o)
